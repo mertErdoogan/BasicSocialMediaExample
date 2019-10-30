@@ -13,8 +13,8 @@ public class ParseStarterActivity extends Application {
         Parse.setLogLevel(Parse.LOG_LEVEL_DEBUG);
 
         Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId("ZSSaPXgl2PhG9ioQfssc1OfW9HFU50CIPHeoERU3")
-                .clientKey("A0pEDywHVvW2ywQLnL1V1LyNiYinaUlWaSHT4FxJ")
+                .applicationId("Your - appID - Here")
+                .clientKey("Your - clientKey - Here")
                 .server("https://parseapi.back4app.com/")
                 .build());
 
